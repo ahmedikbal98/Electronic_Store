@@ -70,12 +70,15 @@ public class ElectronicStoreApplication implements CommandLineRunner {
                     .about("I am Normal User")
                     .build();
 
-            repository.save(role_admin);
-            repository.save(role_normal);
-
-
-            userRepository.save(adminUser);
-            userRepository.save(normalUser);
+            //These lines of code should run once to create roles
+            
+//            repository.save(role_admin);
+//            repository.save(role_normal);
+//
+//
+//            userRepository.save(adminUser);
+//            userRepository.save(normalUser);
+            //
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -69,7 +69,7 @@ public class CategoryController {
 
 
     ) throws InterruptedException {
-      //  Thread.sleep(1000);
+        Thread.sleep(1000);
         PageableResponse<CategoryDto> pageableResponse = categoryService.getAll(pageNumber, pageSize, sortBy, sortDir);
         return new ResponseEntity<>(pageableResponse, HttpStatus.OK);
     }
