@@ -131,6 +131,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>elStoreJar</finalName>
 	</build>
 
 </project>
